@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Due helps freelance designers keep track of invoices and follow-ups.">
+  <title>Due | Invoice tracking for freelance designers</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a class="brand" href="#top" aria-label="Due, back to top"><span class="brand-mark" aria-hidden="true">d.</span> due</a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="nav-links">Menu <span aria-hidden="true">☰</span></button>
+      <nav class="nav-links" id="nav-links" aria-label="Main navigation">
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#pricing">Pricing</a>
+        <a class="button button-small" href="#demo-form">Get started</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>Know which invoices need a nudge.</h1>
+          <p>Due gives freelance designers one place to track invoices, due dates, and the clients they need to follow up with.</p>
+          <a class="button" href="#demo-form">Request a demo <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="app-window" aria-label="Example Due invoice list">
+          <div class="app-topbar">
+            <span class="app-brand"><span class="brand-mark" aria-hidden="true">d.</span> due</span>
+            <span class="app-user">Maya Chen</span>
+          </div>
+          <div class="app-content">
+            <div class="app-heading">
+              <div><p class="app-label">YOUR WORKSPACE</p><h2>Invoices</h2></div>
+              <span class="app-count">3 open</span>
+            </div>
+            <div class="invoice-head"><span>CLIENT / PROJECT</span><span>AMOUNT</span></div>
+            <div class="invoice-row">
+              <div><strong>North Studio</strong><span>Brand identity</span></div>
+              <div class="invoice-amount"><strong>₹18,000</strong><span class="status late">Overdue · Jun 4</span></div>
+            </div>
+            <div class="invoice-row">
+              <div><strong>Olive &amp; Co.</strong><span>Packaging design</span></div>
+              <div class="invoice-amount"><strong>₹12,500</strong><span class="status">Due Jun 18</span></div>
+            </div>
+            <div class="invoice-row">
+              <div><strong>Field Notes</strong><span>Website design</span></div>
+              <div class="invoice-amount"><strong>₹32,000</strong><span class="status">Due Jun 28</span></div>
+            </div>
+            <p class="app-note">A clear view of what's still outstanding.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-intro"><p class="eyebrow">THE ESSENTIALS</p><h2>Less time looking for invoices.</h2></div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="feature-number">01</span>
+            <h3>Keep invoices together</h3>
+            <p>Record the client, project, amount, and due date for each invoice in one list.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-number">02</span>
+            <h3>Spot overdue work</h3>
+            <p>See which invoices have passed their due date without searching through your inbox.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-number">03</span>
+            <h3>Keep track of follow-ups</h3>
+            <p>Make a note when you contact a client, so you know when you last checked in.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="section how-section" id="how-it-works">
+      <div class="container how-grid">
+        <div><p class="eyebrow">HOW IT WORKS</p><h2>From sending an invoice to getting paid.</h2></div>
+        <div class="steps">
+          <div class="step"><span>01</span><div><h3>Add an invoice</h3><p>Enter the client, project, amount, and due date after you send your invoice.</p></div></div>
+          <div class="step"><span>02</span><div><h3>Check your list</h3><p>Open Due to see what's coming up and what has gone past its due date.</p></div></div>
+          <div class="step"><span>03</span><div><h3>Follow up and update</h3><p>Contact the client yourself, note the follow-up, and mark the invoice paid when it arrives.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="section-intro"><p class="eyebrow">PRICING</p><h2>Invoice tracking for your workload.</h2><p>Both plans include invoice tracking and follow-up notes.</p></div>
+        <div class="pricing-grid">
+          <article class="price-card">
+            <h3>Solo</h3><p class="plan-description">For a smaller client list.</p>
+            <p class="price">₹499 <span>/ month</span></p>
+            <ul><li>Up to 25 open invoices</li><li>1 workspace</li><li>Follow-up notes</li></ul>
+            <a class="button button-outline" href="#demo-form">Ask about Solo <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="price-card">
+            <h3>Studio</h3><p class="plan-description">For a busier independent practice.</p>
+            <p class="price">₹999 <span>/ month</span></p>
+            <ul><li>Unlimited open invoices</li><li>1 workspace</li><li>Follow-up notes</li></ul>
+            <a class="button button-outline" href="#demo-form">Ask about Studio <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <p class="eyebrow">GET IN TOUCH</p>
+          <h2>See how Due fits your invoice routine.</h2>
+          <p>Tell us a little about your design work and we'll show you how the invoice list works.</p>
+          <div class="contact-details"><h3>Contact details</h3><p>hello@due.example<br>Monday to Friday, 9 am to 5 pm</p><p class="contact-note">Example contact details for this demo site.</p></div>
+        </div>
+        <form class="demo-form" id="demo-form" novalidate>
+          <h3>Request a demo</h3>
+          <p>All fields are required.</p>
+          <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required aria-describedby="name-error"><span class="error" id="name-error"></span></div>
+          <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error"><span class="error" id="email-error"></span></div>
+          <div class="field"><label for="message">Tell us about your work</label><textarea id="message" name="message" rows="4" required aria-describedby="message-error"></textarea><span class="error" id="message-error"></span></div>
+          <button class="button" type="submit">Request a demo <span aria-hidden="true">↗</span></button>
+          <p class="form-success" id="form-success" role="status" aria-live="polite"></p>
+          <p class="form-note">This is a demo form. Nothing will be sent.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-row"><p><strong>due</strong> <span>Invoice tracking for freelance designers.</span></p><a href="#top">Back to top ↑</a></div>
+  </footer>
+</body>
+</html>
