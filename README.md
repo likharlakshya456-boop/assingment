@@ -1,7 +1,7 @@
 # Due
 
 I made a landing page for Due, a fictional invoice tracker for freelance designers.
-Live demo: 
+Live demo: https://likharlakshya456-boop.github.io/assingment/
 
 ## Run locally
 
